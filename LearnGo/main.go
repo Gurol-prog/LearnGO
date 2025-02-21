@@ -1,11 +1,14 @@
 package main
 
 import (
-	"golesson/conditionals"
+	"golesson/loops"
 )
 
 func main() {
 	//variables.Demo1()
-	conditionals.Demo1()
-	conditionals.Demo2()
+	//conditionals.Demo1()
+	//conditionals.Demo2()
+	//loops.Demo1()
+	//loops.Demo2()
+	loops.WordkDemo1()
 }
