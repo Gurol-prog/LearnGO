@@ -10,5 +10,7 @@ func main() {
 	//conditionals.Demo2()
 	//loops.Demo1()
 	//loops.Demo2()
-	loops.WordkDemo1()
+	//loops.WordkDemo()
+	//loops.WorkDemo2()
+	loops.WorkDemo3()
 }
