@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golesson/arrays"
+	"golesson/slices"
 )
 
 func main() {
@@ -16,5 +16,6 @@ func main() {
 	//arrays.Demo1()
 	//arrays.Demo2()
 	//arrays.Demo3()
-	arrays.Demo4()
+	//arrays.Demo4()
+	slices.Demo2()
 }
