@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"golesson/functions"
+	"golesson/rangex"
 )
 
 func main() {
@@ -27,9 +26,13 @@ func main() {
 	// fmt.Println("Çıkarım : ", sonuc2)
 	// fmt.Println("Çarpım : ", sonuc3)
 	// fmt.Println("Bölüm : ", sonuc4)
-	var sonuc = functions.ToplaVariadic(1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 10, 11, 23, 15)
-	fmt.Println(sonuc)
+	// var sonuc = functions.ToplaVariadic(1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 10, 11, 23, 15)
+	// fmt.Println(sonuc)
 
-	sayilar := []int{4, 6, 7, 0, 11}
-	fmt.Println(functions.ToplaVariadic(sayilar...))
+	// sayilar := []int{4, 6, 7, 0, 11}
+	// fmt.Println(functions.ToplaVariadic(sayilar...))
+	//maps.Demo1()
+	//rangex.Demo1()
+	//rangex.Demo2()
+	rangex.Demo3()
 }
