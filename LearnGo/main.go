@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golesson/structs"
+	"golesson/goroutines"
+	"time"
 )
 
 func main() {
@@ -58,5 +59,9 @@ func main() {
 
 	// Rastgele sayı üretmek için
 
-	structs.Battle()
+	// structs.Battle()
+	go goroutines.CiftSayilar()
+	go goroutines.TekSayilar()
+
+	time.Sleep(5 * time.Second)
 }
