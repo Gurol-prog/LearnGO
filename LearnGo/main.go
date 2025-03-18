@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golesson/rangex"
-)
+import "golesson/structs"
 
 func main() {
 	//variables.Demo1()
@@ -34,5 +32,14 @@ func main() {
 	//maps.Demo1()
 	//rangex.Demo1()
 	//rangex.Demo2()
-	rangex.Demo3()
+	//rangex.Demo3()
+
+	// sayi := 20
+	// pointers.Demo1(&sayi)
+	// fmt.Println("Maindeki sayi ", sayi)
+
+	//sayilar := []int{1, 2, 3}
+	//pointers.Demo2(sayilar)
+	//fmt.Println("Maindeki sayilar : ", sayilar[0])
+	structs.Demo2()
 }
