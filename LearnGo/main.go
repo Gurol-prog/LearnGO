@@ -1,6 +1,8 @@
 package main
 
-import "golesson/structs"
+import (
+	"golesson/structs"
+)
 
 func main() {
 	//variables.Demo1()
@@ -41,5 +43,20 @@ func main() {
 	//sayilar := []int{1, 2, 3}
 	//pointers.Demo2(sayilar)
 	//fmt.Println("Maindeki sayilar : ", sayilar[0])
-	structs.Demo2()
+	//structs.Demo2()
+	// Bir araç nesnesi oluştur
+	// 	car1 := structs.Car{Model: "Sedan", Brand: "Honda", Year: 2025, IsRented: false}
+	// 	structs.RentCar(&car1)
+	// 	structs.RentCar(&car1)
+	// book1 := structs.Book{Title: "Ateşten Gömlek", Author: "Halide edip adıvar", Year: 1923, IsBorrowed: false}
+	// structs.BorrowBook(&book1)
+	// structs.ReturnBook(&book1)
+	// structs.BorrowBook(&book1)
+	// structs.BorrowBook(&book1)
+	// structs.ReturnBook(&book1)
+	// structs.ReturnBook(&book1)
+
+	// Rastgele sayı üretmek için
+
+	structs.Battle()
 }
