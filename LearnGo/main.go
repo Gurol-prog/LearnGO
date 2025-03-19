@@ -1,10 +1,5 @@
 package main
 
-import (
-	"golesson/goroutines"
-	"time"
-)
-
 func main() {
 	//variables.Demo1()
 	//conditionals.Demo1()
@@ -60,8 +55,28 @@ func main() {
 	// Rastgele sayı üretmek için
 
 	// structs.Battle()
-	go goroutines.CiftSayilar()
-	go goroutines.TekSayilar()
 
-	time.Sleep(5 * time.Second)
+	// ciftSayiToplamCn := make(chan int)
+	// tekSayiToplamCn := make(chan int)
+	// go channels.CiftSayilar(ciftSayiToplamCn)
+	// go channels.TekSayilar(tekSayiToplamCn)
+
+	// ciftSayiToplam, tekSAyitoplam := <-ciftSayiToplamCn, <-tekSayiToplamCn
+
+	// carpim := ciftSayiToplam * tekSAyitoplam
+
+	// fmt.Println("Çarpım : ", carpim)
+
+	// foods := make(chan string)
+	// waiter := make(chan string)
+	// go channels.Cehf(foods)
+	// go channels.Waiter(waiter)
+
+	// foods2, waiterss := <-foods, <-waiter
+
+	// fmt.Println(foods2)
+	// fmt.Println(waiterss)
+
+	// channels.Mulikas()
+
 }
