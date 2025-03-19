@@ -1,5 +1,7 @@
 package main
 
+import "golesson/interfaces"
+
 func main() {
 	//variables.Demo1()
 	//conditionals.Demo1()
@@ -78,5 +80,11 @@ func main() {
 	// fmt.Println(waiterss)
 
 	// channels.Mulikas()
+
+	// interfaces.Demo1()
+
+	// interfaces.Demo3()
+
+	interfaces.Demo4()
 
 }
