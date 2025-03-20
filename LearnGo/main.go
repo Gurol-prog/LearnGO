@@ -1,7 +1,5 @@
 package main
 
-import "golesson/interfaces"
-
 func main() {
 	//variables.Demo1()
 	//conditionals.Demo1()
@@ -85,6 +83,7 @@ func main() {
 
 	// interfaces.Demo3()
 
-	interfaces.Demo4()
+	// interfaces.Demo4()
 
+	// deferstatement.Demo3()
 }
