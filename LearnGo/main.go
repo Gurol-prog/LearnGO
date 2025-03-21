@@ -86,4 +86,15 @@ func main() {
 	// interfaces.Demo4()
 
 	// deferstatement.Demo3()
+
+	// interfaces.Demo5()
+
+	// for i := 0; i < 5; i++ {
+	// 	tutulanSayi := 0
+	// 	fmt.Scanln(&tutulanSayi)
+	// 	errorhandling.Demo2(tutulanSayi)
+	// }
+
+	// fmt.Println(errorhandling.TahminEt2(102))
+
 }
