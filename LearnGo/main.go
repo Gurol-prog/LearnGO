@@ -1,6 +1,8 @@
 package main
 
-import myexmaple "golesson/MyExmaple"
+import (
+	stringfunctions "golesson/string_functions"
+)
 
 func main() {
 	//variables.Demo1()
@@ -100,6 +102,8 @@ func main() {
 	// fmt.Println(errorhandling.TahminEt2(102))
 	// myexmaple.ProjectWorker()
 
-	myexmaple.RaceB()
+	// myexmaple.RaceB()
+	// case sensitive
+	stringfunctions.Demo2()
 
 }
