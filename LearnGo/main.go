@@ -1,7 +1,7 @@
 package main
 
 import (
-	stringfunctions "golesson/string_functions"
+	restfull "golesson/RestFull"
 )
 
 func main() {
@@ -104,6 +104,7 @@ func main() {
 
 	// myexmaple.RaceB()
 	// case sensitive
-	stringfunctions.Demo2()
+	// stringfunctions.Demo2()
+	restfull.Demo2()
 
 }
