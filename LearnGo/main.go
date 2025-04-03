@@ -1,8 +1,6 @@
 package main
 
-import (
-	restfull "golesson/RestFull"
-)
+import "golesson/project/structs2"
 
 func main() {
 	//variables.Demo1()
@@ -105,6 +103,28 @@ func main() {
 	// myexmaple.RaceB()
 	// case sensitive
 	// stringfunctions.Demo2()
-	restfull.Demo2()
+	// restfull.Demo2()
 
+	// project.AddProduct()
+	// project.GetAllProduct()
+
+	// products, _ := project.GetAllProductRefactor()
+
+	// for i := 0; i < len(products); i++ {
+	// 	fmt.Println(products[i].ProductName)
+	// }
+
+	// var tasks []taskmanager.Task
+
+	// taskmanager.AddTask(&tasks, "Go öğren", "Goroutines konusunu bitir")
+	// taskmanager.AddTask(&tasks, "Proje geliştir", "Mini bir CLI uygulama yap")
+
+	// fmt.Println("Tüm görevler:")
+	// taskmanager.ListTasks(tasks)
+
+	// taskmanager.MarkAsDone(&tasks, 1)
+
+	// taskmanager.ListTasks(tasks)
+
+	structs2.Deo1()
 }
